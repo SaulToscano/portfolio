@@ -1,0 +1,16 @@
+.card_main_div{
+    display: flex;
+    border: solid;
+    width: 550px;
+}
+
+.card_main_div img{
+    width: 250px;
+    height: 250px;
+}
+
+.card_data_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}

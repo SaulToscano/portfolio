@@ -1,0 +1,15 @@
+.Descripcion_Div{
+    display: flex;
+    justify-content: center;
+}
+
+.Descripcion_Div img{
+    width: 250px;
+    height: 250px;
+}
+
+.Cards_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
