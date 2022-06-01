@@ -18,8 +18,8 @@ function Home(){
                 <span>JavaScript</span>
                 <hr />
                 <div className='Cards_Container'>
-                    <Cards name='Weather App' description='Una aplicacion que te da las tarjetas del clima de la ciudad que le solicites' link='http://sault-weatherapp.000webhostapp.com/' picture={weather_app}/>
-                    <Cards name='Weather App' description='Una aplicacion que te da las tarjetas del clima de la ciudad que le solicites' link='http://sault-weatherapp.000webhostapp.com/' picture={weather_app}/>
+                    <Cards name='Weather App' description='Una aplicacion que te da las tarjetas del clima de la ciudad que le solicites' link='https://SaulToscano.github.io/WeatherApp' picture={weather_app}/>
+                    <Cards name='Api Dogs App' description='Una aplicacion que te da las tarjetas de razas de perros de una api' link='https://SaulToscano.github.io/apiDogs' picture={weather_app}/>
                 </div>
 
             </div>
