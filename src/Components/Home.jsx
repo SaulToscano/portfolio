@@ -3,6 +3,7 @@ import Cards from './Cards.jsx'
 import profile_pic from '../img/Portfolio_Main_Pic.jpg'
 import weather_app from '../img/Weather_App.png'
 import apiDogs_app from '../img/ApiDogs_App.png'
+import miniecommerce_app from '../img/Mini-Ecommerce.png'
 
 import '../css/home.css'
 
@@ -21,6 +22,7 @@ function Home(){
                 <div className='Cards_Container'>
                     <Cards name='Weather App' description='Una aplicacion que te da las tarjetas del clima de la ciudad que le solicites' link='https://SaulToscano.github.io/WeatherApp' picture={weather_app}/>
                     <Cards name='Api Dogs App' description='Una aplicacion que te da las tarjetas de razas de perros de una api' link='https://SaulToscano.github.io/apiDogs' picture={apiDogs_app}/>
+                    <Cards name='Mini Ecommerce' description='Una aplicacion de un ecommerce pequeña' link='https://saultoscano.github.io/Mini-Ecommerce/' picture={miniecommerce_app}/>
                 </div>
 
             </div>

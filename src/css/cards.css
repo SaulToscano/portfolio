@@ -2,11 +2,13 @@
     display: flex;
     border: solid;
     width: 550px;
+    margin: 10px 50px;
 }
 
 .card_main_div img{
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 
 .card_data_div{
@@ -14,3 +16,4 @@
     flex-direction: column;
     justify-content: space-between; 
 }
+
