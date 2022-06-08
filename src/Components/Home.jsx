@@ -8,6 +8,8 @@ import carwash_app from '../img/Carwash_App.png'
 
 import '../css/home.css'
 
+import {weather, dogs, commerce, carwash} from './Data.jsx'
+
 function Home(){
 
     return(
@@ -21,10 +23,10 @@ function Home(){
                 <span>JavaScript</span>
                 <hr />
                 <div className='Cards_Container'>
-                    <Cards name='Weather App' description='Una aplicacion que te da las tarjetas del clima de la ciudad que le solicites' link='https://SaulToscano.github.io/WeatherApp' picture={weather_app}/>
-                    <Cards name='Api Dogs App' description='Una aplicacion que te da las tarjetas de razas de perros de una api' link='https://SaulToscano.github.io/apiDogs' picture={apiDogs_app}/>
-                    <Cards name='Mini Ecommerce' description='Una aplicacion de un ecommerce pequeña' link='https://saultoscano.github.io/Mini-Ecommerce/' picture={miniecommerce_app}/>
-                    <Cards name='Carwash App (A1SDetailing)' description='Una aplicacion para un cliente de lavado de carros' link='https://a1sdetailing.com/' picture={carwash_app}/>
+                    <Cards name={weather.name} description={weather.descripcion} tecnologias={weather.technology} link={weather.link} picture={weather_app}/>
+                    <Cards name={dogs.name} description={dogs.descripcion} tecnologias={dogs.technology} link={dogs.link} picture={apiDogs_app}/>
+                    <Cards name={commerce.name} description={commerce.descripcion} tecnologias={commerce.technology} link={commerce.link} picture={miniecommerce_app}/>
+                    <Cards name={carwash.name} description={carwash.descripcion} tecnologias={carwash.technology} link={carwash.link} picture={carwash_app}/>
                 </div>
 
             </div>

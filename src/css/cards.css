@@ -3,17 +3,56 @@
     border: solid;
     width: 550px;
     margin: 10px 50px;
+    border-radius: 20px;
+    background-color: ghostwhite;
 }
 
 .card_main_div img{
     width: 250px;
-    height: 250px;
+    height: 100%;
     object-fit: cover;
+    border-radius: 15px 0 0 15px;
 }
 
 .card_data_div{
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+}
+
+.title{
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descripcion{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.link{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: lightskyblue;
+    color: blueviolet;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.tecnologias{
+
+}
+
+.tecnologias ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tecnologias ul li {
+    width: 100px;
 }
 
